@@ -24,13 +24,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>Elliot Charney</h1>
-          <span><a
-            style={{
-                color: "#555",
-                textDecoration: 'none'
-            }}
-            href="javascript:void(0)">about me</a></span>
+          <h1>
+            <a
+                style={{color: 'inherit', textDecoration: 'none'}}
+                href="/">
+                Elliot Charney
+            </a>
+        </h1>
           <Menu update={this.updateProject}/>
         </div>
         <div style={{
